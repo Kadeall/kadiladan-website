@@ -1,0 +1,111 @@
+body {
+    font-family: DM Sans, sans-serif;
+    margin: 0%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 4%;
+
+
+}
+
+.logo {
+    font-size: x-large;
+    font-weight: 700;
+    text-decoration: none;
+
+    padding-left: 15%;
+    color: black;
+    margin-bottom: 0%;
+}
+
+.navbar {
+    display: inline;
+    margin-right: 220px;
+    padding: 1%;
+
+}
+
+#navs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+#navs li {
+    display: inline;
+    margin-right: 30px;
+
+}
+
+#navs li a {
+    text-decoration: none;
+    font-size: 19px;
+    color: #6c757d;
+}
+
+#navs a:hover {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.uni a {
+    color: black;
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+    font-weight: 400;
+
+}
+
+.me {
+    font-size: 2.25rem;
+    margin-left: 15%;
+
+}
+
+.me p {
+    font-size: 2.25rem;
+    margin-left: 0%;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 85%;
+    letter-spacing: 20%;
+    padding-left: 15%;
+    font-size: 1rem;
+
+}
+
+* {
+    background-color: #f8f7ff;
+}
+
+.uni a:active {
+    color: rgb(255, 0, 0);
+}
+
+.img {
+
+
+    width: 10rem;
+    height: 10rem;
+    margin-left: 15%;
+    border-radius: 100%;
+}
+
+footer p {
+    margin-bottom: 10%;
+    padding-bottom: 0%;
+    margin-left: 15%;
+    color: #0378ec;
+    margin-right: 15%;
+    align-items: baseline;
+    border-bottom: 0%;
+}
